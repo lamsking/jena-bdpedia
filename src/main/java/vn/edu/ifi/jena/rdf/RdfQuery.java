@@ -48,13 +48,9 @@ public class RdfQuery {
 
 	    // and turn that into a String
 	    String json = new String(outputStream.toByteArray());
-
-	    System.out.println(json);
-	   /* for ( ; results.hasNext() ; ) {
-	        QuerySolution soln = results.nextSolution() ;
-	        System.out.println(soln);
-	        System.out.println(soln.getLiteral("label"));
-	    }*/
+		 System.out.println(json);
+		
+	   
 	}
 
 }
